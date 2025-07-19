@@ -1,0 +1,1205 @@
+
+//Progress Bar sections
+
+<section id="skills" class="bg-[url('./assets/bg-15.svg')] bg-cover bg-center bg-no-repeat dark:bg-gray-900 py-20">
+      <div class="max-w-screen-xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold text-center text-green-700 dark:text-green-300 mb-10 tracking-tight">
+          HR Skills Overview 
+        </h2>
+
+        <!-- Mobile View: Progress Bars Only -->
+        <div class="md:hidden space-y-6">
+          <!-- Repeated Progress Bar -->
+          <!-- Repeat this block for each skill -->
+          <!-- Skill 1 -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-green-700 dark:text-green-300">Employee Relations</span>
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">90%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-green-700 dark:text-green-300">Time Management</span>
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">85%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-green-700 dark:text-green-300">Compliance</span>
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">80%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-green-700 dark:text-green-300">Performance Appraisal</span>
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">88%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 5 -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-base font-medium text-green-700 dark:text-green-300">Employee Engagement</span>
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">92%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 92%;"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Desktop View: Cards with Icons + Progress -->
+        <div class="hidden md:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <!-- Skill Card 1 -->
+          <div
+            class="h-full min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out animate-fade-in-up">
+            <iconify-icon icon="mdi:account-group" class="text-green-500 text-4xl mb-4"></iconify-icon>
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Employee Relations</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Building a positive and compliant work culture.</p>
+            <div class="flex justify-between w-full mb-1 mt-auto">
+              <!-- <span class="text-sm font-medium text-green-700 dark:text-green-300">Employee Relations</span> -->
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">90%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2 -->
+          <div
+            class="h-full min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out animate-fade-in-up">
+            <iconify-icon icon="mdi:account-clock" class="text-green-500 text-4xl mb-4"></iconify-icon>
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Time Management</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Efficiently organizing HR schedules and resources.
+            </p>
+            <div class="flex justify-between w-full mb-1 mt-auto">
+              <!-- <span class="text-sm font-medium text-green-700 dark:text-green-300">Time Management</span> -->
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">85%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 -->
+          <div
+            class="h-full min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out animate-fade-in-up">
+            <iconify-icon icon="mdi:shield-account-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Compliance</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Ensuring HR practices align with legal standards.
+            </p>
+            <div class="flex justify-between w-full mb-1 mt-auto">
+              <!-- <span class="text-sm font-medium text-green-700 dark:text-green-300">Compliance</span> -->
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">80%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 -->
+          <div
+            class="h-full min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out animate-fade-in-up">
+            <iconify-icon icon="mdi:star-circle-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Performance Appraisal</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Evaluating and enhancing employee performance.</p>
+            <div class="flex justify-between w-full mb-1 mt-auto">
+              <!-- <span class="text-sm font-medium text-green-700 dark:text-green-300">Appraisal</span> -->
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">88%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 5 -->
+          <div
+            class="h-full min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out animate-fade-in-up">
+            <iconify-icon icon="mdi:head-heart-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+            <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Employee Engagement</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">Fostering motivation and organizational commitment.
+            </p>
+            <div class="flex justify-between w-full mb-1 mt-auto">
+              <!-- <span class="text-sm font-medium text-green-700 dark:text-green-300">Engagement</span> -->
+              <span class="text-sm font-medium text-gray-700 dark:text-gray-300">92%</span>
+            </div>
+            <div class="w-full bg-green-100 dark:bg-green-800/20 rounded-full h-3">
+              <div class="bg-green-500 h-3 rounded-full" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+//EXPRENCE horizontally scroll bar  code
+<section id="experience" class="py-12 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-6xl mx-auto px-4">
+          <!-- Heading -->
+          <h2 class="text-3xl font-extrabold mb-8 text-center text-green-700 dark:text-green-300">
+            Experience
+          </h2>
+
+          <!-- Scrollable Card Container -->
+          <div class="relative">
+            <!-- Scrollable Wrapper -->
+            <div id="cardContainer" class="overflow-x-auto sm:overflow-visible scroll-smooth px-2">
+              <div
+                class="flex sm:grid sm:grid-cols-2 lg:grid-cols-2 gap-6 min-w-[540px] sm:min-w-full"
+              >
+                <!-- Card 1 -->
+                <article
+                  class="group relative w-[240px] sm:w-auto min-h-[360px] sm:h-auto flex-shrink-0 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 transition hover:-translate-y-1 hover:shadow-xl hover:border-green-500 dark:hover:border-green-400"
+                >
+                  <header class="flex items-start justify-between">
+                    <div>
+                      <h3
+                        class="break-words text-base sm:text-xl font-semibold text-green-700 dark:text-green-400"
+                      >
+                        Assistant Manager – HR
+                      </h3>
+                      <p class="text-xs sm:text-base mt-2 text-gray-600 dark:text-gray-400">
+                        <span class="block sm:inline font-bold">ARIETIS HEALTHTECH INT PVT LTD</span><br />
+                        <span class="block sm:inline">June 2023  - Jan 2025</span>
+                      </p>
+                    </div>
+                    <img
+                      src="https://dummyimage.com/40x40/22c55e/ffffff&text=A"
+                      alt="ARIETIS Logo"
+                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg object-cover"
+                    />
+                  </header>
+
+                  <ul
+                    class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed"
+                  >
+                    <li>• Managed recruitment and onboarding processes.</li>
+                    <li>• Handled employee engagement and training.</li>
+                    <li>• Ensured HR policy compliance.</li>
+                    <li>• Improved workflows with HR automation tools.</li>
+                    <li>• Coordinated with internal stakeholders.</li>
+                  </ul>
+
+                  <span
+                    class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
+                  ></span>
+                </article>
+
+                <!-- Card 2 -->
+                <article
+                  class="group relative w-[240px] sm:w-auto h-[360px] sm:h-auto flex-shrink-0 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 transition hover:-translate-y-1 hover:shadow-xl hover:border-green-500 dark:hover:border-green-400"
+                >
+                  <header class="flex items-start justify-between">
+                    <div>
+                      <h3
+                        class="text-base sm:text-xl font-semibold text-green-700 dark:text-green-400"
+                      >
+                        HRBP – RMG
+                      </h3>
+                      <p class="text-xs sm:text-base mt-2 text-gray-600 dark:text-gray-400">
+                        <span class="block sm:inline font-bold">VIRTUAL EMPLOYEE PVT LTD. </span><br />
+                        <span class="block sm:inline">Mar 2021 - Oct2022</span>
+                      </p>
+                    </div>
+                    <img
+                      src="https://dummyimage.com/40x40/22c55e/ffffff&text=V"
+                      alt="Virtual Employee"
+                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg object-cover"
+                    />
+                  </header>
+
+                  <ul
+                    class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed"
+                  >
+                    <li class="break-words whitespace-normal">
+                      • Handled end-to-end internal staffing & resource planning.
+                    </li>
+                    <li class="break-words whitespace-normal">
+                      • Improved bench utilization through strategic allocations.
+                    </li>
+                    <li class="break-words whitespace-normal">
+                      • Supported project ramp-up with timely resource alignment.
+                    </li>
+                  </ul>
+
+                  <span
+                    class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
+                  ></span>
+                </article>
+
+                <!-- Card 3 -->
+                <article
+                  class="group relative w-[240px] sm:w-auto h-[360px] sm:h-auto flex-shrink-0 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 transition hover:-translate-y-1 hover:shadow-xl hover:border-green-500 dark:hover:border-green-400"
+                >
+                  <header class="flex items-start justify-between">
+                    <div>
+                      <h3
+                        class="text-base sm:text-xl font-semibold text-green-700 dark:text-green-400"
+                      >
+                        Sr. HR Executive
+                      </h3>
+                      <p class="text-xs sm:text-base mt-2 text-gray-600 dark:text-gray-400">
+                        <span class="block sm:inline font-bold">HERO FINCORP SR. HR EXECUTIVE </span><br />
+                        <span class="block mt-1 sm:inline">Jan 2019 - Mar 2021</span>
+                      </p>
+                    </div>
+                    <img
+                      src="https://dummyimage.com/40x40/22c55e/ffffff&text=H"
+                      alt="Hero Fincorp"
+                      class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg object-cover"
+                    />
+                  </header>
+
+                  <ul
+                    class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed"
+                  >
+                    <li>• Managed onboarding & employee life cycle activities.</li>
+                    <li>• Handled MIS reports & employee data management.</li>
+                    <li>• Supported recruitment drives & vendor coordination.</li>
+                  </ul>
+
+                  <span
+                    class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5 bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
+                  ></span>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- Updated Scroll Buttons - Icon Only & Close -->
+          <div class="flex justify-center gap-4 mt-6 sm:hidden">
+            <!-- Previous Button -->
+            <button
+              onclick="scrollCards('left')"
+              aria-label="Scroll Left"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-green-700 text-white shadow-md hover:bg-green-800 active:scale-95 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
+            >
+              <iconify-icon icon="mdi:chevron-left" class="text-xl"></iconify-icon>
+            </button>
+
+            <!-- Next Button -->
+            <button
+              onclick="scrollCards('right')"
+              aria-label="Scroll Right"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-green-700 text-white shadow-md hover:bg-green-800 active:scale-95 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500"
+            >
+              <iconify-icon icon="mdi:chevron-right" class="text-xl"></iconify-icon>
+            </button>
+          </div>
+        </div>
+
+        <!-- Scroll Script -->
+      </section>
+
+
+//dark them
+ <script src="https://cdn.tailwindcss.com"></script>
+
+
+ //js code 
+  
+  function scrollCards(direction) {
+      const container = document.getElementById('cardContainer');
+      const scrollAmount = 390; // Same as card width
+      container.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+ 
+
+  //dark mode
+   if (localStorage.getItem('color-theme') === 'dark' || 
+     (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+  
+//form errors
+
+  const emailInput = document.getElementById("email");
+  const errorText  = document.getElementById("emailError");
+
+  function setBorderColor(isValid) {
+    if (isValid) {
+      emailInput.classList.remove(
+        "border-red-500", "focus:ring-red-500", "focus:border-red-500"
+      );
+      emailInput.classList.add(
+        "border-green-500", "focus:ring-green-500", "focus:border-green-500"
+      );
+      errorText.classList.add("hidden");
+    } else {
+      emailInput.classList.remove(
+        "border-green-500", "focus:ring-green-500", "focus:border-green-500"
+      );
+      emailInput.classList.add(
+        "border-red-500", "focus:ring-red-500", "focus:border-red-500"
+      );
+      errorText.classList.remove("hidden");
+    }
+  }
+
+  function clearBorder() {
+    emailInput.classList.remove(
+      "border-red-500", "focus:ring-red-500", "focus:border-red-500",
+      "border-green-500", "focus:ring-green-500", "focus:border-green-500"
+    );
+    errorText.classList.add("hidden");
+  }
+
+  emailInput.addEventListener("input", () => {
+    const isValid = emailInput.value.includes("@") && emailInput.value.trim().length > 0;
+    if (emailInput.value.trim().length === 0) {
+      clearBorder();
+    } else {
+      setBorderColor(isValid);
+    }
+  });
+
+  const form = document.querySelector("#contact form");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (!emailInput.value.includes("@")) {
+      setBorderColor(false);
+      emailInput.focus();
+      return;
+    }
+    form.reset();
+    clearBorder();
+    alert("Your message has been sent!");
+  });
+
+
+
+  //cards projects
+
+ function scrollProjects(direction) {
+    const container = document.getElementById("projectCardSlider");
+    if (!container) return;
+
+    const CARD_WIDTH = 360; // Adjust to your card width
+    const GAP = 24; // Tailwind gap-6 = 1.5rem = 24px
+    const scrollAmount = CARD_WIDTH + GAP;
+
+    container.scrollBy({
+      left: direction === "left" ? -scrollAmount : scrollAmount,
+      behavior: "smooth"
+    });
+  }
+
+
+  //copyright 
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+
+  //dark mode btn
+
+  //active feature navbar
+  // Initialize lucide icons
+  lucide.createIcons();
+
+  // Navbar menu toggle logic
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navMenu = document.getElementById('menu');
+
+  toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+  });
+
+
+  
+
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhanu Dhama | Strategic HR Leader | HR Portfolio</title>
+
+  <!-- ✅ Meta SEO Tags -->
+  <meta name="description"
+    content="Explore Bhanu Dhama’s HR Portfolio showcasing leadership in strategic HR management, employee engagement, performance development, and modern workplace solutions." />
+  <meta name="author" content="Bhanu Dhama" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdomain.com" />
+
+  <!-- ✅ Open Graph (OG) for LinkedIn, Facebook -->
+  <meta property="og:title" content="Bhanu Dhama | HR Leader Portfolio" />
+  <meta property="og:description"
+    content="Discover Bhanu Dhama’s strategic leadership in Human Resources through this modern HR portfolio site." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="https://yourdomain.com/images/preview.jpg" />
+
+  <!-- ✅ Twitter Card for Better Sharing -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bhanu Dhama | Strategic HR Portfolio" />
+  <meta name="twitter:description"
+    content="Explore Bhanu Dhama’s expertise in modern HR practices and employee development." />
+  <meta name="twitter:image" content="https://yourdomain.com/images/preview.jpg" />
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- ✅ Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=daisyui"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+  <!-- ✅ Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- GSAP Core -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <!-- ScrollTrigger Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+</head>
+
+<body data-scroll-container
+  class="flex flex-col min-h-screen dark:bg-gray-900 scrollbar-hide bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="w-full bg-white dark:bg-gray-900 fixed top-0 left-0 z-50 shadow-md">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-4 gap-4">
+
+      <!-- Logo -->
+      <a href="#" class="flex items-center space-x-4 rtl:space-x-reverse">
+        <img
+          src="https://media.istockphoto.com/id/1927881377/photo/confident-businesswoman-in-modern-office.jpg?s=612x612&w=0&k=20&c=9cuUbqW1y-vbdapjlD0pXkEiGC2LYWx7nyjkPQg-cTQ="
+          class="h-10 w-10 rounded-full border-2 border-green-400 shadow-md object-cover" alt="Logo" />
+        <span class="text-xl font-semibold dark:text-white">Bhanu Dhama</span>
+      </a>
+
+      <!-- Hamburger -->
+      <button id="menu-toggle" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <!-- Links -->
+      <div id="menu"
+        class="hidden w-full md:block md:w-auto mt-4 md:mt-0 transition-all duration-300 ease-in-out origin-top">
+        <ul
+          class="flex flex-col md:flex-row items-start md:items-center gap-5 md:gap-10 font-medium bg-gray-50 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent p-4 md:p-0 rounded-lg">
+          <li>
+            <a href="#home" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-green-600">
+              <i data-lucide="home" class="w-4 h-4"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-green-600">
+              <i data-lucide="badge-check" class="w-4 h-4"></i> Skills
+            </a>
+          </li>
+          <li>
+            <a href="#experience" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-green-600">
+              <i data-lucide="briefcase" class="w-4 h-4"></i> Experience
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="flex items-center gap-2 text-gray-900 dark:text-white hover:text-green-600">
+              <i data-lucide="mail" class="w-4 h-4"></i> Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com" target="_blank"
+              class="flex items-center gap-2 text-white bg-green-700 px-4 py-2 rounded-md hover:bg-green-800">
+              <i data-lucide="file-down" class="w-4 h-4"></i> Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <section data-scroll-section id="home" class="relative pt-28 bg-white dark:bg-gray-900 overflow-hidden">
+      <div class="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center min-h-[90vh] py-16">
+        <!-- Profile Card Left -->
+        <div id="profileCard"
+          class="bg-white/40 dark:bg-green-900/60 backdrop-blur-md rounded-2xl p-8 flex flex-col items-center shadow-2xl border border-green-100 dark:border-green-700 transition-all duration-300">
+          <img id="profileImage"
+            src="https://media.istockphoto.com/id/1927881377/photo/confident-businesswoman-in-modern-office.jpg?s=612x612&w=0&k=20&c=9cuUbqW1y-vbdapjlD0pXkEiGC2LYWx7nyjkPQg-cTQ="
+            alt="Anshika"
+            class="w-48 h-48 object-cover rounded-full border-4 border-green-300 mb-4 shadow-md hover:scale-105 transition-transform duration-300" />
+
+          <h2 class="text-2xl font-bold text-green-800 dark:text-green-300">Bhanu Dhama</h2>
+          <p class="text-gray-700 text-l dark:text-gray-200 mb-4 italic">
+            Human Resource Specialist
+          </p>
+
+          <!-- Social Icons -->
+          <div class="flex justify-center space-x-4 mb-6">
+            <a href="https://linkedin.com/in/bhanu-dhama-a12166167" target="_blank" aria-label="Visit LinkedIn Profile"
+              class="text-green-600 hover:text-green-800 dark:text-green-300 text-2xl">
+              <iconify-icon icon="mdi:linkedin" width="30" aria-hidden="true"></iconify-icon>
+              <span class="sr-only">Visit LinkedIn Profile</span>
+            </a>
+
+            <a href="https://wa.me/919599376912" target="_blank" aria-label="Chat on WhatsApp"
+              class="text-green-600 hover:text-green-800 dark:text-green-300 text-2xl">
+              <iconify-icon icon="mdi:whatsapp" width="30" aria-hidden="true"></iconify-icon>
+              <span class="sr-only">Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="#contact" class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+              Hire Me
+            </a>
+
+            <a href="https://drive.google.com" target="_blank"
+              class="px-6 py-2 border border-green-500 text-green-800 font-semibold hover:bg-green-200 dark:text-green-200 dark:hover:bg-green-800 rounded-lg transition">
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="aboutText" class="flex flex-col justify-center text-gray-800 dark:text-gray-200">
+          <h3 class="text-l uppercase tracking-widest text-green-700 dark:text-green-300 font-medium mb-1">
+            About Me
+          </h3>
+
+          <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+            I'm <span class="text-green-700 dark:text-green-400">Bhanu Dhama</span>
+          </h1>
+
+          <p class="italic text-base md:text-lg leading-relaxed mb-6">
+            Strategic HR Professional with 5+ years of cross-industry experience in IT (product &
+            services), NBFC, and HealthTech startups. Proven expertise in driving HR operations,
+            performance management, talent development, and grievance redressal. Skilled in
+            aligning people strategies with business goals, managing the complete employee
+            lifecycle, and leading organizational change. Adept at stakeholder engagement, audit
+            management, and optimizing HR processes for operational excellence.
+          </p>
+
+          <!-- Stats -->
+          <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+            <div class="bg-green-100 dark:bg-green-800 p-4 rounded-lg text-center shadow">
+              <h2 class="text-3xl font-bold text-green-700 dark:text-green-300">5+</h2>
+              <p class="text-sm text-gray-600 dark:text-gray-300">Years Experience</p>
+            </div>
+            <div class="bg-green-100 dark:bg-green-800 p-4 rounded-lg text-center shadow">
+              <h3 class="text-3xl font-bold text-green-700 dark:text-green-300">10+</h3>
+              <p class="text-sm text-gray-600 dark:text-gray-300">HR functions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--skill Sections-->
+    <section id="skills" class="bg-[url('./assets/bg-15.svg')] bg-cover bg-center bg-no-repeat dark:bg-gray-900 py-20">
+      <div class="max-w-screen-xl mx-auto px-6">
+        <h2 class="text-3xl font-extrabold text-center text-green-700 dark:text-green-300 mb-10 tracking-tight">
+          HR SKILLS OVERVIEW<span class="sr-only">(values are estimated and may vary)</span>
+        </h2>
+
+        <!-- Responsive Grid Layout (horizontal scroll on mobile, grid on md+) -->
+        <div class="relative">
+          <div id="skills-scroll"
+            class="flex gap-6 overflow-x-auto sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:overflow-visible scroll-smooth pb-4"
+            style="scroll-snap-type: x mandatory;">
+            <!-- Skill Card 1 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: Employee Relations" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:account-group" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Employee Relations</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Building a positive and compliant work culture.</p>
+              </div>
+            </div>
+            <!-- Skill Card 2 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: Time Management" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:account-clock" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Time Management</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Efficiently organizing HR schedules and resources.
+                </p>
+              </div>
+            </div>
+            <!-- Skill Card 3 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region" aria-label="Skill: Compliance"
+              style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:shield-account-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Compliance</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Ensuring HR practices align with legal standards.
+                </p>
+              </div>
+            </div>
+            <!-- Skill Card 4 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: Performance Appraisal" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:star-circle-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Performance Appraisal</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Evaluating and enhancing employee performance.</p>
+              </div>
+            </div>
+            <!-- Skill Card 5 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: Talent Management" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:account-star" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Talent Management</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Attracting, developing, and retaining top talent to
+                  meet business goals.</p>
+              </div>
+            </div>
+            <!-- Skill Card 6 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: HR Policy & Compliance" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:file-document-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">HR Policy & Compliance</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Designing and enforcing HR policies to ensure legal
+                  and ethical compliance.</p>
+              </div>
+            </div>
+            <!-- Skill Card 7 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: Stakeholder Management" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:handshake-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">Stakeholder Management</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Collaborating with internal and external
+                  stakeholders for strategic alignment.</p>
+              </div>
+            </div>
+            <!-- Skill Card 8 -->
+            <div class="flex-shrink-0 w-72 sm:w-auto flex justify-center" role="region"
+              aria-label="Skill: HR Automation" style="scroll-snap-align: start;">
+              <div
+                class="w-full max-w-xs min-h-[240px] flex flex-col justify-start items-start bg-white/10 dark:bg-green-900/30 backdrop-blur-lg border border-green-200/30 dark:border-green-800/30 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 animate-fade-in-up">
+                <iconify-icon icon="mdi:cog-sync-outline" class="text-green-500 text-4xl mb-4"></iconify-icon>
+                <h3 class="text-lg font-semibold text-green-700 dark:text-green-300 mb-1">HR Automation</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Streamlining HR processes using technology and
+                  automation tools.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Dots navigation: only visible on mobile, hidden on sm+ -->
+          <div id="skills-dots" class="flex justify-center mt-4 gap-2 sm:hidden"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Experience -->
+    <section id="experience"
+      class="py-16 bg-gradient-to-br from-white via-gray-100 to-white dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+      <div class="max-w-6xl mx-auto px-4">
+        <!-- Heading -->
+        <h2 class="text-4xl font-extrabold mb-12 text-center text-green-700 dark:text-green-300 tracking-wide">
+          Experience
+        </h2>
+
+        <!-- Grid Container -->
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+          <!-- Card Template -->
+          <article
+            class="backdrop-blur-md bg-white/30 dark:bg-gray-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 sm:p-7 shadow-md transition-transform transform hover:-translate-y-2 hover:shadow-2xl hover:border-green-500 dark:hover:border-green-400">
+            <header class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-green-700 dark:text-green-400">
+                  Assistant Manager – HR
+                </h3>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">
+                  <span class="font-semibold">ARIETIS HEALTHTECH INT PVT LTD</span><br />
+                  <span>June 2023 - Jan 2025</span>
+                </p>
+              </div>
+              <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=A" alt="ARIETIS Logo"
+                class="h-10 w-10 rounded-lg object-cover ring-2 ring-green-500" />
+            </header>
+
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              <li>• Managed recruitment and onboarding processes.</li>
+              <li>• Handled employee engagement and training.</li>
+              <li>• Ensured HR policy compliance.</li>
+              <li>• Improved workflows with HR automation tools.</li>
+              <li>• Coordinated with internal stakeholders.</li>
+            </ul>
+          </article>
+
+          <article
+            class="backdrop-blur-md bg-white/30 dark:bg-gray-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 sm:p-7 shadow-md transition-transform transform hover:-translate-y-2 hover:shadow-2xl hover:border-green-500 dark:hover:border-green-400">
+            <header class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-green-700 dark:text-green-400">HRBP – RMG</h3>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">
+                  <span class="font-semibold">VIRTUAL EMPLOYEE PVT LTD.</span><br />
+                  <span>Mar 2021 - Oct 2022</span>
+                </p>
+              </div>
+              <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=V" alt="Virtual Employee"
+                class="h-10 w-10 rounded-lg object-cover ring-2 ring-green-500" />
+            </header>
+
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              <li>• Handled end-to-end internal staffing & resource planning.</li>
+              <li>• Improved bench utilization through strategic allocations.</li>
+              <li>• Supported project ramp-up with timely resource alignment.</li>
+            </ul>
+          </article>
+
+          <article
+            class="backdrop-blur-md bg-white/30 dark:bg-gray-800/40 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 sm:p-7 shadow-md transition-transform transform hover:-translate-y-2 hover:shadow-2xl hover:border-green-500 dark:hover:border-green-400">
+            <header class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-green-700 dark:text-green-400">
+                  Sr. HR Executive
+                </h3>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-400">
+                  <span class="font-semibold">HERO FINCORP</span><br />
+                  <span>Jan 2019 - Mar 2021</span>
+                </p>
+              </div>
+              <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=H" alt="Hero Fincorp"
+                class="h-10 w-10 rounded-lg object-cover ring-2 ring-green-500" />
+            </header>
+
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              <li>• Managed onboarding & employee life cycle activities.</li>
+              <li>• Handled MIS reports & employee data management.</li>
+              <li>• Supported recruitment drives & vendor coordination.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <!-- <section id="projects" class="py-16 bg-white dark:bg-gray-900">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-green-700 dark:text-green-300">Projects</h2>
+      <p class="text-gray-600 dark:text-gray-400 mt-2 text-lg">
+        Selected real-world projects demonstrating hands-on HR technology experience.
+      </p>
+    </div>
+
+    <div class="relative">
+      <div id="projectCardSlider"
+        class="flex gap-6 sm:overflow-hidden overflow-x-auto scroll-smooth sm:grid sm:grid-cols-2 lg:grid-cols-3">
+
+        <article class="group relative w-full sm:w-[300px] lg:w-[340px] flex-shrink-0 
+         h-[360px] sm:h-[400px] 
+         rounded-xl border border-gray-200 dark:border-gray-700 
+         bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 
+         transition hover:-translate-y-1 hover:shadow-xl 
+         hover:border-green-500 dark:hover:border-green-400">
+          <header class="flex items-start justify-between">
+            <div>
+              <h3 class="text-base sm:text-lg font-semibold text-green-700 dark:text-green-400">
+                Recruitment Portal
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">
+                MERN Stack · 2024
+              </p>
+            </div>
+            <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=R" alt="Recruit"
+              class="h-8 w-8 sm:h-10 sm:w-10 rounded-md object-cover ml-4" />
+          </header>
+          <ul class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed list-disc pl-4">
+            <li>Built job listing and application tracking features.</li>
+            <li>Integrated EmailJS for notifications and updates.</li>
+            <li>Enabled HR filtering and resume uploads.</li>
+          </ul>
+          <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5
+                bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100
+                transition-transform origin-left"></span>
+        </article>
+
+        <article class="group relative w-full sm:w-[300px] lg:w-[340px] flex-shrink-0 
+         h-[360px] sm:h-[400px] 
+         rounded-xl border border-gray-200 dark:border-gray-700 
+         bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 
+         transition hover:-translate-y-1 hover:shadow-xl 
+         hover:border-green-500 dark:hover:border-green-400">
+          <header class="flex items-start justify-between">
+            <div>
+              <h3 class="text-base sm:text-lg font-semibold text-green-700 dark:text-green-400">
+                Employee Self-Service
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">
+                Node.js + MongoDB · 2023
+              </p>
+            </div>
+            <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=E" alt="ESS"
+              class="h-8 w-8 sm:h-10 sm:w-10 rounded-md object-cover ml-4" />
+          </header>
+          <ul class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed list-disc pl-4">
+            <li>Enabled employees to view and update their records.</li>
+            <li>Leave application and status tracking integrated.</li>
+            <li>Role-based access with JWT authentication.</li>
+          </ul>
+          <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5
+                bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100
+                transition-transform origin-left"></span>
+        </article>
+
+        <article class="group relative w-full sm:w-[300px] lg:w-[340px] flex-shrink-0 
+         h-[360px] sm:h-[400px] 
+         rounded-xl border border-gray-200 dark:border-gray-700 
+         bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 
+         transition hover:-translate-y-1 hover:shadow-xl 
+         hover:border-green-500 dark:hover:border-green-400">
+          <header class="flex items-start justify-between">
+            <div>
+              <h3 class="text-base sm:text-lg font-semibold text-green-700 dark:text-green-400">
+                HR Dashboard
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">
+                React + Chart.js · 2024
+              </p>
+            </div>
+            <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=D" alt="Dashboard"
+              class="h-8 w-8 sm:h-10 sm:w-10 rounded-md object-cover ml-4" />
+          </header>
+          <ul class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed list-disc pl-4">
+            <li>Visualized key HR metrics (absenteeism, headcount, attrition).</li>
+            <li>Custom filters by department and location.</li>
+            <li>Data pulled from MongoDB using REST API.</li>
+          </ul>
+          <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5
+                bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100
+                transition-transform origin-left"></span>
+        </article>
+
+        <article class="group relative w-full sm:w-[300px] lg:w-[340px] flex-shrink-0 
+         h-[360px] sm:h-[400px] 
+         rounded-xl border border-gray-200 dark:border-gray-700 
+         bg-white dark:bg-gray-800 px-5 py-5 sm:p-6 
+         transition hover:-translate-y-1 hover:shadow-xl 
+         hover:border-green-500 dark:hover:border-green-400">
+          <header class="flex items-start justify-between">
+            <div>
+              <h3 class="text-base sm:text-lg font-semibold text-green-700 dark:text-green-400">
+                Attendance Tracker
+              </h3>
+              <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">
+                Firebase · 2024
+              </p>
+            </div>
+            <img src="https://dummyimage.com/40x40/22c55e/ffffff&text=A" alt="Attendance"
+              class="h-8 w-8 sm:h-10 sm:w-10 rounded-md object-cover ml-4" />
+          </header>
+          <ul class="mt-4 space-y-1 text-gray-700 dark:text-gray-300 text-sm leading-relaxed list-disc pl-4">
+            <li>Implemented real-time check-in/out with Firestore.</li>
+            <li>Daily, weekly, and monthly attendance reports.</li>
+            <li>Mobile-first design with biometric sync potential.</li>
+          </ul>
+          <span class="pointer-events-none absolute inset-x-0 -bottom-0.5 h-0.5
+                bg-green-500 dark:bg-green-400 scale-x-0 group-hover:scale-x-100
+                transition-transform origin-left"></span>
+        </article>
+      </div>
+
+      <div class="flex justify-center gap-4 mt-6 mb-6 sm:hidden">
+        <button onclick="scrollProjects('left')"
+          class="w-10 h-10 flex items-center justify-center rounded-full bg-green-600 text-white shadow-md hover:bg-green-700 transition">
+          <iconify-icon icon="mdi:chevron-left" class="text-xl"></iconify-icon>
+        </button>
+        <button onclick="scrollProjects('right')"
+          class="w-10 h-10 flex items-center justify-center rounded-full bg-green-600 text-white shadow-md hover:bg-green-700 transition">
+          <iconify-icon icon="mdi:chevron-right" class="text-xl"></iconify-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+    <!--Certifications-->
+    <!-- <section id="certifications" class="relative py-16 text-white overflow-hidden bg-[#0a0a0a]">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-extrabold text-green-700">Certifications</h2>
+      <p class="text-gray-600 dark:text-gray-400 mt-2 text-xl">
+        HR certifications that reflect my dedication to people, strategy, and success.
+      </p>
+    </div>
+
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+      <div
+        class="bg-[#1a1a1a]/80 border border-green-500/20 backdrop-blur rounded-xl p-6 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-green-700/30">
+        <div class="flex items-center gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="CHRP"
+            class="w-16 h-16 object-cover rounded-lg" />
+          <div>
+            <h3 class="text-xl font-semibold text-green-700">CHRP - HR Certification</h3>
+            <p class="text-sm text-gray-600">HRCI · 2024</p>
+          </div>
+        </div>
+        <p class="text-gray-700 mt-3 text-sm">
+          Covers HR strategy, compliance, labor law, and people operations.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 mt-4 text-green-600 hover:text-green-500 transition-colors text-sm">
+          <span class="iconify text-lg" data-icon="mdi:certificate-outline"></span>
+          View Credential
+        </a>
+      </div>
+
+      <div
+        class="bg-[#1a1a1a]/80 border border-green-500/20 backdrop-blur rounded-xl p-6 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-green-700/30">
+        <div class="flex items-center gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="People Analytics"
+            class="w-16 h-16 object-cover rounded-lg" />
+          <div>
+            <h3 class="text-xl font-semibold text-green-700">People Analytics</h3>
+            <p class="text-sm text-gray-600">LinkedIn Learning · 2024</p>
+          </div>
+        </div>
+        <p class="text-gray-700 mt-3 text-sm">
+          Uses HR data to make better, evidence-based decisions.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 mt-4 text-green-600 hover:text-green-500 transition-colors text-sm">
+          <span class="iconify text-lg" data-icon="material-symbols:analytics-outline-rounded"></span>
+          View Credential
+        </a>
+      </div>
+
+      <div
+        class="bg-[#1a1a1a]/80 border border-green-500/20 backdrop-blur rounded-xl p-6 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-green-700/30">
+        <div class="flex items-center gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135712.png" alt="Interviewing"
+            class="w-16 h-16 object-cover rounded-lg" />
+          <div>
+            <h3 class="text-xl font-semibold text-green-700">Effective Interviewing</h3>
+            <p class="text-sm text-gray-600">Coursera · 2023</p>
+          </div>
+        </div>
+        <p class="text-gray-700 mt-3 text-sm">
+          Learned structured interviews, hiring strategies, and legal standards.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 mt-4 text-green-600 hover:text-green-500 transition-colors text-sm">
+          <span class="iconify text-lg" data-icon="mdi:account-search-outline"></span>
+          View Credential
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+ -->
+
+    <!--Form Section-->
+    <section id="contact" class="bg-white dark:bg-gray-900">
+      <div class="py-12 lg:py-20 px-4 mx-auto max-w-screen-md">
+
+        <!-- Contact Card -->
+        <div
+          class="contact-card bg-white/50 dark:bg-green-900/30 backdrop-blur-md shadow-xl rounded-2xl p-8 md:p-12 border border-gray-200 dark:border-gray-700 transition-all duration-300">
+
+          <!-- Heading -->
+          <h2
+            class="contact-animate mb-4 text-4xl tracking-tight font-extrabold text-center text-green-700 dark:text-green-300">
+            Contact Me
+          </h2>
+
+          <p class="contact-animate mb-8 lg:mb-12 font-semibold text-center text-gray-600 dark:text-gray-400 text-lg">
+            Have questions, feedback, or a project in mind? Just drop your message — I’ll get back
+            to you as soon as possible.
+          </p>
+
+          <!-- Contact Form -->
+          <form action="#" class="space-y-8">
+            <!-- Email -->
+            <div class="contact-animate">
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                Your Email
+              </label>
+              <input type="email" id="email" required
+                class="w-full p-3 text-sm text-gray-900 bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500 transition duration-300"
+                placeholder="you@example.com" />
+              <p id="emailError" class="mt-1 text-sm text-red-600 hidden">
+                Please include '@' in your email
+              </p>
+            </div>
+
+            <!-- Subject -->
+            <div class="contact-animate">
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                Subject
+              </label>
+              <input type="text" id="subject" required
+                class="w-full p-3 text-sm text-gray-900 bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="How can I help you?" />
+            </div>
+
+            <!-- Message -->
+            <div class="contact-animate">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                Your Message
+              </label>
+              <textarea id="message" rows="6" required
+                class="w-full p-3 text-sm text-gray-900 bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="Leave your message here..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="contact-animate">
+              <button type="submit"
+                class="py-3 px-6 text-sm font-semibold text-white bg-green-700 rounded-lg shadow-md hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-400 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-300 transition duration-300">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
+    <!-- Footer Grid -->
+    <div
+      class="footer-grid max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <!-- Logo + Description -->
+      <div class="flex flex-col items-start">
+        <div class="flex items-center space-x-3">
+          <img src="https://i.pinimg.com/736x/e9/c5/1a/e9c51a0a6819c3b0032b44c46fd199b0.jpg" alt="Logo"
+            class="h-12 w-12 rounded-full shadow-md object-cover" />
+          <span class="text-2xl font-bold text-gray-900 dark:text-white">Bhanu Dhama</span>
+        </div>
+        <p class="mt-3 text-sm font-semibold text-gray-900 dark:text-gray-400 leading-relaxed max-w-sm">
+          Dedicated to building high-performance cultures by aligning smart HR leadership with
+          strategic business objectives, fostering employee growth and engagement.
+        </p>
+      </div>
+
+      <!-- Quick Navigation -->
+      <div>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Navigation</h3>
+        <ul class="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+          <li>
+            <a href="index.html"
+              class="flex items-center gap-2 hover:text-green-600 dark:hover:text-green-400 transition">
+              <i data-lucide="home" class="w-4 h-4"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="flex items-center gap-2 hover:text-green-600 dark:hover:text-green-400 transition">
+              <i data-lucide="badge-check" class="w-4 h-4"></i> Skills
+            </a>
+          </li>
+          <li>
+            <a href="#experience"
+              class="flex items-center gap-2 hover:text-green-600 dark:hover:text-green-400 transition">
+              <i data-lucide="briefcase" class="w-4 h-4"></i> Experience
+            </a>
+          </li>
+          <li>
+            <a href="#contact"
+              class="flex items-center gap-2 hover:text-green-600 dark:hover:text-green-400 transition">
+              <i data-lucide="mail" class="w-4 h-4"></i> Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Contact</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400 mb-1">📧 bhanudhama0125@outlook.com</p>
+        <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">📞 +91 95993 76912</p>
+        <a href="mailto:bhanudhama0125@outlook.com"
+          class="inline-flex items-center gap-2 bg-green-700 text-white text-sm font-semibold px-4 py-2 rounded-md hover:bg-green-800 transition duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-300"
+          aria-label="Send Email to Bhanu Dhama">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+          Send Email
+        </a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="mt-2">
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Connect With Me</h3>
+        <div class="flex space-x-4">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/bhanu-dhama-a12166167" target="_blank" aria-label="LinkedIn"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 dark:bg-green-900 hover:bg-green-600 transition-colors text-green-700 dark:text-green-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/919599376912" target="_blank" aria-label="WhatsApp"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 dark:bg-green-900 hover:bg-green-500 transition-colors text-green-700 dark:text-green-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div
+      class="border-t border-gray-200 dark:border-gray-700 mt-6 pt-4 pb-6 text-center text-sm text-gray-600 dark:text-gray-400">
+      &copy; <span id="year"></span>
+      <span class="text-green-700 font-medium dark:text-green-400">Bhanu Dhama.</span> All rights reserved. <br />
+      Designed & Developed by
+      <span class="font-medium text-green-700 dark:text-green-400">Vinay Raman</span>
+    </div>
+  </footer>
+
+
+  <script src="index.js"></script>
+  <script src="animate.js"></script>
+  <!--icons cdn-->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=daisyui"></script>
+  <!-- Lenis Scroll (Optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis"></script>
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+</body>
+
+</html>
